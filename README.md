@@ -36,4 +36,4 @@ pip install pyftpdlib
 
 
 [script]: pins.py
-[arduinocode]: StandardFirmata.ino
+[arduinocode]: StandardFirmata/StandardFirmata.ino
