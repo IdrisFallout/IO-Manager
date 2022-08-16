@@ -20,6 +20,8 @@ pip install pyftpdlib
 - Use the StandardFirmata example provided after installing firmata on Arduino IDE or download from [here][arduinocode]
 - Before you upload your code, wire your circuit as shown below
 
+![Wiring...](screenshots/light-array.PNG?raw=true "Optional Title")
+
 ```python
     # disable upload to the web - remove return to enable this feature
     return
