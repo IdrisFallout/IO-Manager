@@ -25,6 +25,7 @@ pip install pyftpdlib
 - Ensure you have connected your Arduino then hit upload.
 
 ```python
+    # line - 2282
     # disable upload to the web - remove return to enable this feature
     return
     try:
