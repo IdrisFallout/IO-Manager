@@ -22,6 +22,8 @@ pip install pyftpdlib
 
 ![Wiring...](screenshots/light-array.PNG?raw=true "Optional Title")
 
+- Ensure you have connected your Arduino then hit upload.
+
 ```python
     # disable upload to the web - remove return to enable this feature
     return
@@ -36,6 +38,10 @@ pip install pyftpdlib
     except:
         max_label.place(x=(width / 2) - int((len(max_label.cget("text")) * 4)), y=height - 53)
 ```
+
+# Limitations of the project
+- You cannot add analog pins
+- The entries are not validated(exception have a tiny chance of occuring)
 
 
 [script]: pins.py
