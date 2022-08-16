@@ -5,6 +5,10 @@ The project makes use of python library pyFirmata to control arduino pins explic
 ```
 pip install pyFirmata
 ```
+```
+pip install tk
+```
+
 ```python
     # disable upload to the web - remove return to enable this feature
     return
