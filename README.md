@@ -24,6 +24,9 @@ pip install pyftpdlib
 
 - Ensure you have connected your Arduino then hit upload.
 
+# Miscellaneous
+In line 2282 of [pins.py][script] remove the return keyword to enable remote saving of data. The block of code uploads you data-file(json file) to the specified remote directory within your ftp server account. To use this feature you have to provide with the specified credentials.
+
 ```python
     # line - 2282
     # disable upload to the web - remove return to enable this feature
