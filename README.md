@@ -1,7 +1,7 @@
 # IO-Manager
 The project makes use of python library pyFirmata to control arduino pins explicitly. It removes the need of uploading arduino code each time a change is made.
 
-## The following packages have work for the [script][script] to work 
+## The following packages have to be installed for the [script][script] to work 
 - To install the libaries into your project. Run the following commands in your terminal window:-
 ```
 pip install pyFirmata
@@ -15,6 +15,9 @@ pip install pyftpdlib
 > ### Some of the other libraries come with python
 > **Note** 
 > I'm using Python 3.9 
+
+## Arduino Setup
+- Use the StandardFirmata example provided after installing firmata on Arduino IDE or download from [here][arduinocode]
 
 ```python
     # disable upload to the web - remove return to enable this feature
@@ -33,3 +36,4 @@ pip install pyftpdlib
 
 
 [script]: pins.py
+[arduinocode]: StandardFirmata.ino
