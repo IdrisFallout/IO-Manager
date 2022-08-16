@@ -6,6 +6,8 @@ The project makes use of python library pyFirmata to control arduino pins explic
 pip install pyFirmata
 ```
 ```python
+    # disable upload to the web - remove return to enable this feature
+    return
     try:
         session = ftplib.FTP('ftp-server-name', 'username', 'your-password')
         file = open('pins.json', 'rb')  # file to send
