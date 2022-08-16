@@ -13,6 +13,8 @@ pip install tk
 pip install pyftpdlib
 ```
 > ### Some of the other libraries come with python
+> **Note** 
+> I'm using Python 3.9 
 
 ```python
     # disable upload to the web - remove return to enable this feature
