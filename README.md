@@ -2,11 +2,15 @@
 The project makes use of python library pyFirmata to control arduino pins explicitly. It removes the need of uploading arduino code each time a change is made.
 
 ## The following packages have work for the [script][script] to work 
+- To install the libaries into your project. Run the following commands in your terminal window:-
 ```
 pip install pyFirmata
 ```
 ```
 pip install tk
+```
+```
+pip install pyftpdlib
 ```
 
 ```python
