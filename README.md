@@ -12,7 +12,7 @@ pip install tk
 ```
 pip install pyftpdlib
 ```
-> **Some of the other libraries come with python**
+#> **Some of the other libraries come with python**
 
 ```python
     # disable upload to the web - remove return to enable this feature
